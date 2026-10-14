@@ -30,7 +30,6 @@ void setup() {
 }
 
 void loop() {
-  // 8-bit ADC numerical value
   input = digitalRead(IR);
   if (!input == 1) {
     count++;
